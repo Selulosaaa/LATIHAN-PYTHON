@@ -15,3 +15,7 @@ print(100)
 #jika ingin memunculkan teks lebi dari 1 dalam satu baris maka bisa dipakai (*)
 
 print("-" * 20) #menandakan di print 20 kali
+
+#print tanpa baris baru bisa pakai end=""
+print("ini adalah line pertama", end="")
+print(" beda print namun ia berada di line yang sama")
