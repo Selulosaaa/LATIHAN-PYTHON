@@ -16,5 +16,3 @@ print("-" * 20)
 #variable dapat digabungkan dengan satu baris langsung dengan print
 print("nama kamu adalah", nama)
 print(f"nama kamu adalah {nama}") #f untuk mempermudah saja agar bisa langsung
-
-
