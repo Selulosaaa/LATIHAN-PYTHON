@@ -3,6 +3,7 @@
 #print berguna untuk mencetak atau memerintahkan memunculkan sebuah teks
 #hal tersebut dapat diwujudkan dengan format print("teks")
 #dapat dipraktekkan
+#dan ini dasar dasar yang akan digunakan!
 
 print("hello world")
 #output "hello world"
