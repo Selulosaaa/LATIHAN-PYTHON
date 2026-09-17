@@ -16,3 +16,9 @@ print("-" * 20)
 #variable dapat digabungkan dengan satu baris langsung dengan print
 print("nama kamu adalah", nama)
 print(f"nama kamu adalah {nama}") #f untuk mempermudah saja agar bisa langsung
+print("-" * 20)
+#variable juga dapat digunakan menyimpan sesama variable
+password_benar = "ini"
+password_inti = password_benar
+print(password_inti)
+#yang muncul akan is variabel password_benar
