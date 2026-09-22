@@ -18,4 +18,9 @@ elif temperatur > 25:
   print("halo dunia! selamat siang!")
 else:
   print("cuaca yang dingin! segera pakai jaket!")
-  
+
+#disini ada ternary operator
+#sama seperti if-elif-else. namun hanya satu baris!
+age = 16
+verifikasi = "Dewasa" if age >= 18 else "Anak dibawah umur"
+print(verifikasi)
