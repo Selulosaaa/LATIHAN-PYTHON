@@ -21,3 +21,9 @@ y = 3
 print(x != y) #hasil true karena memang tidak sama
 print(3 != 3) #hasil false karena mereka sama
 print("_" * 20)
+print("perbandingan lebih besar dan lebih kecil")
+print("diketahui x = 4 dan y = 3")
+print(x > y, "4 lebih besar dari 3") #hasil true karena 4 lebih besar dari 3
+print(x < y, "4 lebih kecil dari 3") #hasil false karena 4 seharusnya lebih besar dari 3
+print("_" * 20)
+print("perbandingan lebih besar atau sama dengan dan lebih kecil atau sama dengan")
