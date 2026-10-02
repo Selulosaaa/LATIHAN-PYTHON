@@ -22,8 +22,8 @@ elif operasi == 2:
     hasil = modal_akhir - bunga
     print(f"Modal awal kamu adalah Rp.{hasil}")
   else:
-    waktu = input("Kamu mencari modal tahun atau bulan?(tahun/bulan) ")
-    if waktu.lower() == "tahun":
+    waktu = input("Kamu mencari modal tahun?(iya/tidak) ")
+    if waktu.lower() == "iya":
       bunga = float(input("Isi bunga yang sudah kamu hitung "))
       suku_bunga = int(input("Masukkan suku bunga kamu(angka saja) "))
       suku = suku_bunga / 100
@@ -31,5 +31,10 @@ elif operasi == 2:
       hasil = bunga / (suku * waktu)
       print(f"Modal kamu sudah dihitung dengab hasil Rp.{hasil}")
     else:
+      bunga = float(input("Isi bunga yang sudah kamu hitung "))
+      suku_bunga = int(input("Masukkan suku bunga kamu(angka saja) "))
+      suku = suku_bunga / 100
+      waktu_bulan = int(input("Masukkan waktu kamu dalam bulan! "))
+      
       
     
