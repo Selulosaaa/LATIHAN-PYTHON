@@ -37,3 +37,5 @@ elif operasi == 2:
       waktu_bulan = int(input("Masukkan waktu kamu dalam bulan! ")) / 12
       hasil = bunga / (suku * waktu_bulan)
       print(f"Modal kamu sudah dihitung dengab hasil Rp.{hasil}")
+elif operasi == 3:
+  print("masih dalam pengerjaan!")
